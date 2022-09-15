@@ -1,9 +1,9 @@
 import React from 'react';
 import {Appearance} from 'react-native';
 import Navigator from '@navigation';
-import {GlobalBottomModal, GlobalToast} from '@components';
+// import {GlobalAlerts} from '@containers';
 import {StoreProvider} from '@context';
-import {Theme} from '@theme';
+// import {Theme} from '@theme';
 const colorScheme = Appearance.getColorScheme();
 if (colorScheme === 'dark') {
   // Use dark color scheme
@@ -14,8 +14,7 @@ const App = () => {
   return (
     <StoreProvider>
       <Navigator />
-      <GlobalBottomModal />
-      <GlobalToast />
+      {/* <GlobalAlerts /> */}
     </StoreProvider>
   );
 };

@@ -20,6 +20,7 @@
     "@shopify/react-native-skia": "^0.1.146",
     "react": "18.1.0",
     "react-native": "0.70.0",
+    "react-native-dotenv": "^3.3.1",
     "react-native-gesture-handler": "^2.6.0",
     "react-native-mmkv": "^2.4.3",
     "react-native-permissions": "^3.6.1",
@@ -43,5 +44,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "author": {
+    "name": "Ed Barahona",
+    "email": "me@EdBarahona.com",
+    "url": "https://edbarahona.com"
   }
 }
